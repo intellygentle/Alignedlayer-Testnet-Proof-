@@ -26,6 +26,8 @@ curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batche
 source /root/.bashrc
 ```
 
+### if the code above didnt work just open new cmd tab or vscode console 
+
 
 ### Download an example SP1 proof file with it's ELF file 
 ![image](https://github.com/mztacat/Alignedlayer-Testnet-Proof-/assets/31314340/a5a6d803-fa4c-4247-a973-3ee02935565e)
@@ -59,6 +61,16 @@ Use the explorer link in CMD to check if verified and you'll also see below imag
 
 -------------
 ----------------------
+
+### use this to get proof verified response 
+
+'''
+aligned verify-proof-onchain
+--aligned-verification-data ~/aligned_verification_data/*.json
+--rpc https://ethereum-holesky-rpc.publicnode.com
+--chain holesky
+'''
+
 ### Tweet exactly as screenshot and Submit Proof in Dscord 
 
 ![image](https://github.com/mztacat/Alignedlayer-Testnet-Proof-/assets/31314340/91eb3840-5a65-4bf5-b617-b2b4b3c56e72)
