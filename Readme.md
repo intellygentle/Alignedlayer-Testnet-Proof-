@@ -65,9 +65,9 @@ Use the explorer link in CMD to check if verified and you'll also see below imag
 ### use this to get proof verified response 
 
 ```
-aligned verify-proof-onchain
---aligned-verification-data ~/aligned_verification_data/*.json
---rpc https://ethereum-holesky-rpc.publicnode.com
+aligned verify-proof-onchain \
+--aligned-verification-data ~/aligned_verification_data/*.json \
+--rpc https://ethereum-holesky-rpc.publicnode.com \
 --chain holesky
 ```
 
